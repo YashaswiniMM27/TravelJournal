@@ -1,4 +1,5 @@
 function Entry(props) {
+
   return(
     <section className="entrySection">
       <div className="entryGrid">
