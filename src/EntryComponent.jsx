@@ -4,22 +4,22 @@ function Entry(props) {
     <section className="entrySection">
       <div className="entryGrid">
         <div className="gridImage">
-          <img src={props.entry.img} alt="grid-image" />
+          <img src={props.img} alt="grid-image" />
           <div className="gridDetails">
           <div className="location">
             <img src="src/assets/Marker.png" alt="marker" />
-            <span className="locationName">{props.entry.country}</span>
-            <a href={props.entry.googleLinks} target="_blank">View on Google Maps</a>
+            <span className="locationName">{props.country}</span>
+            <a href={props.googleLinks} target="_blank">View on Google Maps</a>
           </div>
           <div className="travelLocation">
-            <span>{props.entry.place}</span>
+            <span>{props.place}</span>
           </div>
           <div className="travelDates">
-              <span>{props.entry.date}</span>
+              <span>{props.date}</span>
           </div>
           <div className="travelDescription">
               <span>
-              {props.entry.description}
+              {props.description}
               </span>
           </div>
         </div>

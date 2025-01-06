@@ -10,7 +10,7 @@ function App(){
         {travelData.map((entry, index) => {
             return (<Entry
             key={index}
-            entry={entry}
+            {...entry}
         />)
         })}
         </>
