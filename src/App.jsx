@@ -10,12 +10,7 @@ function App(){
         {travelData.map((entry, index) => {
             return (<Entry
             key={index}
-            img={entry.img}
-            country={entry.country}
-            place={entry.place}
-            date={entry.date}
-            description={entry.description}
-            googleLink={entry.googleLink}
+            entry={entry}
         />)
         })}
         </>
